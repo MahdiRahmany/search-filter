@@ -54,12 +54,12 @@ body {
 }
 
 .filter-box {
-display: flex;
-justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
   width: 50%;
 }
 
-.filter-box a{
+.filter-box a {
   display: block;
   text-decoration: none;
   color: var(--primaryColor);
@@ -87,6 +87,12 @@ justify-content: space-around;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-column-gap: 3rem;
   grid-row-gap: 5rem;
+}
+
+.products-center .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .product {
